@@ -21,3 +21,7 @@ CREATE TABLE Books (
   year INTEGER 
   series TEXT 
 );
+
+CREATE TABLE Characters (
+
+)
