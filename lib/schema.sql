@@ -31,4 +31,6 @@ CREATE TABLE Characters (
   series TEXT
 );
 
-CREATE TABLE character_books
+CREATE TABLE character_books (
+
+);
