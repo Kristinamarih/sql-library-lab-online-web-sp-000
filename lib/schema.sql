@@ -1,28 +1,28 @@
-CREATE TABLE Series (
+CREATE TABLE series (
   id INTEGER PRIMARY KEY 
   title TEXT
   author TEXT 
   sub-genre TEXT
 );
 
-CREATE TABLE Sub-Genre (
+CREATE TABLE sub-genre (
   id INTEGER PRIMARY KEY 
   name TEXT
 );
 
-CREATE TABLE Authors (
+CREATE TABLE authors (
   id INTEGER PRIMARY KEY 
   name TEXT
 );
 
-CREATE TABLE Books (
+CREATE TABLE books (
   id INTEGER PRIMARY KEY 
   title TEXT
   year INTEGER 
   series TEXT 
 );
 
-CREATE TABLE Characters (
+CREATE TABLE characters (
   id INTEGER PRIMARY KEY
   name TEXT 
   motto TEXT 
